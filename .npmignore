@@ -1,0 +1,13 @@
+/*
+/.*
+!/bin
+!/lib
+!/py
+!/Dockerfile
+!/Pipfile*
+!/.dockerignore
+
+*.ts
+*.pyc
+!*.d.ts
+

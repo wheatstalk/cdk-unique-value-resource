@@ -1,0 +1,43 @@
+{
+  "name": "@wheatstalk/cdk-unique-value-resource",
+  "version": "0.0.5",
+  "license": "MIT",
+  "bin": {
+    "cdk-unique-value-resource": "bin/app.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.67.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "aws-cdk": "1.67.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-dynamodb": "^1.67.0",
+    "@aws-cdk/aws-lambda": "^1.67.0",
+    "@aws-cdk/core": "^1.67.0",
+    "@aws-cdk/custom-resources": "^1.67.0"
+  },
+  "peerDependencies": {
+    "@aws-cdk/aws-dynamodb": "^1.67.0",
+    "@aws-cdk/aws-lambda": "^1.67.0",
+    "@aws-cdk/core": "^1.67.0",
+    "@aws-cdk/custom-resources": "^1.67.0"
+  }
+}
