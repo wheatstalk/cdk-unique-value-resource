@@ -1,3 +1,4 @@
+import logging
 import re
 import unittest
 
@@ -28,5 +29,5 @@ class TestRandomWords(unittest.TestCase):
         self.assertGreaterEqual(len(names_unique) / len(names), 0.7, msg='expected 70% of names to be unique')
 
         for name in names:
-            print(name)
+            logging.info(name)
             self.assertGreater(len(name), 0)

@@ -1,0 +1,26 @@
+name: CI-Lambda
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - run: pip install pipenv && pipenv lock -r --dev >requirements.txt && pip install -r requirements.txt
+    - run: localstack start 2>/dev/null & python py/localstack_wait.py
+    - run: coverage run --source . test.py
+    - run: coverage report --show-missing
