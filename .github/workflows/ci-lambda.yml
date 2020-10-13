@@ -24,11 +24,11 @@ jobs:
     - run: pipenv lock -r --dev >requirements.txt
     - run: cat requirements.txt
     - run: pip install -r requirements.txt
-    - run: docker pull localstack/localstack:latest
-    - run: localstack start 2>/dev/null & sleep 15
+    - run: localstack start 2>/dev/null
     - run: |
-        PYNAMODB_CONFIG=$PWD/py/ci_pynamodb_config.py \
-        AWS_ACCESS_KEY_ID=invalid \
-        AWS_SECRET_ACCESS_KEY=invalid \
-        coverage run --source . -m unittest discover
+        export PYNAMODB_CONFIG=$PWD/py/ci_pynamodb_config.py
+        export AWS_ACCESS_KEY_ID=invalid
+        export AWS_SECRET_ACCESS_KEY=invalid
+    - run: python py/localstack_wait.py
+    - run: coverage run --source . -m unittest discover
     - run: coverage report --show-missing
