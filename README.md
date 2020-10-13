@@ -1,3 +1,6 @@
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/wheatstalk/cdk-unique-value-resource/CI-Construct?label=construct%20build)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/wheatstalk/cdk-unique-value-resource/CI-Lambda?label=lambda%20build)
+
 # CDK Unique Value Resource
 
 This module provides a CloudFormation resource type that produces guaranteed-unique values. You may `!GetAtt` to fetch and use the unique values in your templates. We created this project to help manage dynamic ECS services behind a shared Application Load Balancer.
