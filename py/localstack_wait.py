@@ -16,7 +16,7 @@ def wait():
             logging.info(f'Localstack is ready')
             return
         except TableError as e:
-            logging.info(f'Localstack is not ready')
+            logging.info(f'Localstack is not ready: {e}')
             time.sleep(5)
 
     raise Exception('Timed out')
