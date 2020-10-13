@@ -20,7 +20,10 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - run: pip install pipenv
+    - run: find . -type f
     - run: pipenv lock -r --dev >requirements.txt
+    - run: find . -type f
+    - run: cat requirements.txt
     - run: pip install -r requirements.txt
     - run: docker pull localstack/localstack:latest
     - run: localstack start 2>/dev/null & sleep 5
