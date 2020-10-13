@@ -30,5 +30,6 @@ jobs:
     - run: yarn build
     - run: yarn test
     - run: pip install pipenv && pipenv install --dev
+    - run: pipenv run localstack start & 2>/dev/null
     - run: pipenv run coverage run --source . -m unittest discover
     - run: pipenv run coverage report --show-missing
