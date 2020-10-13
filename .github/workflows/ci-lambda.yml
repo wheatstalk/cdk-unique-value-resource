@@ -20,6 +20,8 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - run: pip install pipenv
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
     - run: find . -type f
     - run: pipenv lock -r --dev >requirements.txt
     - run: find . -type f
