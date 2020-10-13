@@ -9,7 +9,8 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "yarn run lint && yarn run build && yarn run test"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.67.0",
