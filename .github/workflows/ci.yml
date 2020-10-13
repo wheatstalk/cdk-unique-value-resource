@@ -13,6 +13,7 @@ jobs:
     strategy:
       matrix:
         node-version: [10.x, 12.x, 14.x]
+        python-version: [3.8]
 
     steps:
     - uses: actions/checkout@v2
@@ -20,7 +21,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
     - run: yarn
     - run: yarn lint
     - run: yarn build
     - run: yarn test
+    - run: pip install pipenv && pipenv install --dev
+    - run: pipenv run coverage run --source . -m unittest discover
+    - run: pipenv run coverage report --show-missing
