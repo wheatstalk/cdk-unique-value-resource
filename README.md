@@ -7,12 +7,12 @@ This module provides a CloudFormation resource type that produces guaranteed-uni
 
 This project provides AWS CDK Constructs to increase ease of use in your CDK projects. You may install a shared version of the resource provider in a region by using the included CDK app. Or, you may embed and use the provider in your app without any sharing.
 
-Features:
+**Features:**
 
 - Create groups of unique values
-- Generate unique integers in a given range, with a given step
-- Generate UUIDs
-- Generate Unique word combinations
+- Generate unique integers in a given range
+- Generate UUID1 and UUID4 values
+- Generate unique word combinations (think `rustic-albatross` or `amazed-wallabies`)
 
 ## Getting Started
 
@@ -63,6 +63,14 @@ new CfnOutput(this, 'UniqueIntegerValue', {
 });
 ```
 
+To remove the shared version of the resource provider, type the following:
+
+```bash
+cdk --app 'npx @wheatstalk/cdk-unique-value-resource' destroy UniqueValueResource
+```
+
+> Note: By design, CloudFormation will prevent the deletion of the resource provider stack unless you remove all references to the provider's custom resource type.
+
 ## Architecture Notes
 
 - CDK-based project
@@ -72,8 +80,7 @@ new CfnOutput(this, 'UniqueIntegerValue', {
 
 ## Development Notice
 
-This project is still in development. We do not recommend using it in production until it is stable version `1.0.0`. We do not have nay estimates on when this may be.
-
+This project is still in development. We do not recommend using it in production until it is stable version `1.0.0`. We do not have any estimates on when this may be.
 
 ## Contributing
 
