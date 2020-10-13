@@ -15,16 +15,13 @@ jobs:
         python-version: [3.8]
 
     steps:
+    - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
     - run: pip install pipenv
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
-    - run: find . -type f
     - run: pipenv lock -r --dev >requirements.txt
-    - run: find . -type f
     - run: cat requirements.txt
     - run: pip install -r requirements.txt
     - run: docker pull localstack/localstack:latest
