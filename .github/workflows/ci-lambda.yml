@@ -26,6 +26,6 @@ jobs:
     - run: pip install -r requirements.txt
     - run: docker image pull localstack/localstack:latest
     - run: localstack start 2>/dev/null &
-    - run: AWS_ACCESS_KEY_ID=invalid AWS_SECRET_ACCESS_KEY=invalid python py/localstack_wait.py
-    - run: PYNAMODB_CONFIG=$PWD/py/ci_pynamodb_config.py AWS_ACCESS_KEY_ID=invalid AWS_SECRET_ACCESS_KEY=invalid coverage run --source . -m unittest discover
+    - run: python py/localstack_wait.py
+    - run: coverage run --source . test.py
     - run: coverage report --show-missing

@@ -1,5 +1,7 @@
 from datetime import datetime, timedelta
 import logging
+
+import os
 import time
 
 from pynamodb.connection import Connection
@@ -7,6 +9,9 @@ from pynamodb.exceptions import TableError
 
 
 def wait():
+    os.environ['AWS_ACCESS_KEY_ID'] = 'invalid'
+    os.environ['AWS_SECRET_ACCESS_KEY'] = 'invalid'
+
     connection = Connection(host="http://localhost:4566")
 
     timeout = datetime.now() + timedelta(seconds=60)
