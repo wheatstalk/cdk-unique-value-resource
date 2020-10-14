@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@aws-cdk/assert@1.67.0":
+"@aws-cdk/assert@^1.67.0":
   version "1.67.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-1.67.0.tgz#4ea3b4e2c4b0f05f1b239f0c597b42094b39cac3"
   integrity sha512-p3BkrfXpCwSwiZ3K8fPvKUbr4FKQY4lBSr3ZzmqeMPwgk0b9nlBk3QBFdY60zkBpJpoDwZZ3qi4+vooJrpev3w==
@@ -1239,7 +1239,7 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-aws-cdk@1.67.0:
+aws-cdk@^1.67.0:
   version "1.67.0"
   resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-1.67.0.tgz#2710efebdd0ca2bad1e05e4c1211524f988ce779"
   integrity sha512-h4OHxsGh+EPxU971uYI0MBCUtfv9j9XJL+JniqMjMnGQs9LhqK+eJJRRjeh92NNvkS+KUT1C8tYGPQOT22sSDQ==
