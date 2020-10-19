@@ -16,10 +16,10 @@
     "default": {
         "botocore": {
             "hashes": [
-                "sha256:4cdb114947391c88787df3e2f6a9f53ee15f1e2fef8691963e959858a034bb02",
-                "sha256:5b1c189a74e4ecc5fcc833b8c8a12c6040c03b5330401a8a8f459f0dba098826"
+                "sha256:de5f9fc0c7e88ee7ba831fa27475be258ae09ece99143ed623d3618a3c84ee2c",
+                "sha256:e224754230e7e015836ba20037cac6321e8e2ce9b8627c14d579fcb37249decd"
             ],
-            "version": "==1.18.17"
+            "version": "==1.18.18"
         },
         "jmespath": {
             "hashes": [
@@ -70,10 +70,10 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:4cdb114947391c88787df3e2f6a9f53ee15f1e2fef8691963e959858a034bb02",
-                "sha256:5b1c189a74e4ecc5fcc833b8c8a12c6040c03b5330401a8a8f459f0dba098826"
+                "sha256:de5f9fc0c7e88ee7ba831fa27475be258ae09ece99143ed623d3618a3c84ee2c",
+                "sha256:e224754230e7e015836ba20037cac6321e8e2ce9b8627c14d579fcb37249decd"
             ],
-            "version": "==1.18.17"
+            "version": "==1.18.18"
         },
         "certifi": {
             "hashes": [
@@ -178,10 +178,10 @@
         },
         "localstack": {
             "hashes": [
-                "sha256:6f5b8c12594430795c0b6e1104c60b77565b4190695e1f4ade595f6a9174a59c"
+                "sha256:1bc74efe61254e81a00a79f12f00d65e996604f5d076b4c95db56c5a04639ad9"
             ],
             "index": "pypi",
-            "version": "==0.11.6"
+            "version": "==0.12.0"
         },
         "localstack-client": {
             "hashes": [
@@ -191,9 +191,9 @@
         },
         "localstack-ext": {
             "hashes": [
-                "sha256:7f462e07a02c2a25e51cb1143d0b866d1f75fe11b5c89911c54c166fba72257e"
+                "sha256:fff2e2d6e7920b9939e5b91f493ca98a65c1a84968f315fe8ad0c51a37eccb0c"
             ],
-            "version": "==0.11.43"
+            "version": "==0.11.43.2"
         },
         "nltk": {
             "hashes": [
