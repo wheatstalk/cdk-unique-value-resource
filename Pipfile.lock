@@ -193,10 +193,10 @@
         },
         "localstack": {
             "hashes": [
-                "sha256:f2d3fa98d884ef94ffceb8b0ec4e166686732fdcc60bc4bffcf113fb3f224aa9"
+                "sha256:e94c0e88a051331af94208ce18279d46a49890d104d88bfbe16af4e42042fffe"
             ],
             "index": "pypi",
-            "version": "==0.12.3"
+            "version": "==0.12.4"
         },
         "localstack-client": {
             "hashes": [
@@ -206,9 +206,9 @@
         },
         "localstack-ext": {
             "hashes": [
-                "sha256:d458d6086be8cf60c3f3b4cdabc77412603e2474b38fa7f4be4bff352be2d087"
+                "sha256:b5ae015552ee123447b5c45911426da59cad05cbb1f17bfc533228234c8954fb"
             ],
-            "version": "==0.12.2.2"
+            "version": "==0.12.3.1"
         },
         "nltk": {
             "hashes": [
@@ -299,10 +299,10 @@
         },
         "tqdm": {
             "hashes": [
-                "sha256:38b658a3e4ecf9b4f6f8ff75ca16221ae3378b2e175d846b6b33ea3a20852cf5",
-                "sha256:d4f413aecb61c9779888c64ddf0c62910ad56dcbe857d8922bb505d4dbff0df1"
+                "sha256:0cd81710de29754bf17b6fee07bdb86f956b4fa20d3078f02040f83e64309416",
+                "sha256:f4f80b96e2ceafea69add7bf971b8403b9cba8fb4451c1220f91c79be4ebd208"
             ],
-            "version": "==4.54.1"
+            "version": "==4.55.0"
         },
         "urllib3": {
             "hashes": [
