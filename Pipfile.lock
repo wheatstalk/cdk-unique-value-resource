@@ -193,10 +193,10 @@
         },
         "localstack": {
             "hashes": [
-                "sha256:39b89e808ffb350015e1308bb01aea3f5b5c5f81212f6a32ab50a554f2b243d2"
+                "sha256:8a55ea43baac659c696bceb1f5d3ad288f6434733f557646db7ce3553795d7ef"
             ],
             "index": "pypi",
-            "version": "==0.12.5"
+            "version": "==0.12.6"
         },
         "localstack-client": {
             "hashes": [
@@ -206,9 +206,9 @@
         },
         "localstack-ext": {
             "hashes": [
-                "sha256:f9b89b02c62d5f73071bef52c2c586ee08dfe696849695ac48dc374886f4d93a"
+                "sha256:0813b57a07322bc1c76cb27b6cc289fcc6446240098b83a0ce7ce9186276abe8"
             ],
-            "version": "==0.12.4.24"
+            "version": "==0.12.5.1"
         },
         "nltk": {
             "hashes": [
