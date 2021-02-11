@@ -30,11 +30,11 @@
         },
         "pynamodb": {
             "hashes": [
-                "sha256:ef0af5503b9fefd1344ad827b0ced614cbe9f3a415dd0d8b6bbc4c9e92bb88f7",
-                "sha256:f0ab0809798eaedcb6ddd42e11d610e752abb1d29e5226844aacf9cbe9b72d54"
+                "sha256:a7fb6fccf189323f45e222afeb08bd6399f34f31b6545a320c48785bc4442ce6",
+                "sha256:bd3198aea12abaab806a77501525e689dbf6ded408de3aae8a1edc05a016d659"
             ],
             "index": "pypi",
-            "version": "==5.0.0"
+            "version": "==5.0.1"
         },
         "python-dateutil": {
             "hashes": [
@@ -61,6 +61,7 @@
     "develop": {
         "boto3": {
             "hashes": [
+                "sha256:0d126d429a8a9ea2c8409a1ee36ce5a34e11db788d7730a714016264f10bbb89",
                 "sha256:d6aafb804fca2b67c65dda78ad8b4afed901e004071208b84c804d345ad9ebba"
             ],
             "index": "pypi",
@@ -204,9 +205,9 @@
         },
         "localstack-ext": {
             "hashes": [
-                "sha256:3e9da8a8ece5cf5d0d220e93e60de7e6ad3ab76569439b25e13f9645b8b847e1"
+                "sha256:59b2c4a08a4a73fb3882893aea5781c147f9bddaf15d2c1a173ad21fc6ad137e"
             ],
-            "version": "==0.12.5.4"
+            "version": "==0.12.5.5"
         },
         "nltk": {
             "hashes": [
@@ -297,10 +298,10 @@
         },
         "tqdm": {
             "hashes": [
-                "sha256:2874fa525c051177583ec59c0fb4583e91f28ccd3f217ffad2acdb32d2c789ac",
-                "sha256:ab9b659241d82b8b51b2269ee243ec95286046bf06015c4e15a947cc15914211"
+                "sha256:11d544652edbdfc9cc41aa4c8a5c166513e279f3f2d9f1a9e1c89935b51de6ff",
+                "sha256:a89be573bfddb81bb0b395a416d5e55e3ecc73ce95a368a4f6360bedea33195e"
             ],
-            "version": "==4.56.1"
+            "version": "==4.56.2"
         },
         "urllib3": {
             "hashes": [
