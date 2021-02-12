@@ -16,10 +16,10 @@
     "default": {
         "botocore": {
             "hashes": [
-                "sha256:04a1df759681f5f171accb354d863bfed0774d64a4e8ee35ff49835755660a4e",
-                "sha256:3c55f0db5e08920727f4fa24a87aed60060643f4b0b5665c62ec762f79e82d6b"
+                "sha256:39832e4732fcdc897e1b1a50474251c7d3218029a902634a876364c223ca2432",
+                "sha256:7d04cd042ac01e08463dcbe520835d02f414ba431a43e4b4035bd2d0531b66a0"
             ],
-            "version": "==1.20.5"
+            "version": "==1.20.6"
         },
         "jmespath": {
             "hashes": [
@@ -30,11 +30,11 @@
         },
         "pynamodb": {
             "hashes": [
-                "sha256:a7fb6fccf189323f45e222afeb08bd6399f34f31b6545a320c48785bc4442ce6",
-                "sha256:bd3198aea12abaab806a77501525e689dbf6ded408de3aae8a1edc05a016d659"
+                "sha256:8f854523b1499d49234e189574a4746d0dcbf1012a3fe9a9cd73739d9f8b5d98",
+                "sha256:cac2cfa102ba95a49baa2739280f8d32b27b92bf028f748e1571fc8855530569"
             ],
             "index": "pypi",
-            "version": "==5.0.1"
+            "version": "==5.0.2"
         },
         "python-dateutil": {
             "hashes": [
@@ -69,10 +69,10 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:04a1df759681f5f171accb354d863bfed0774d64a4e8ee35ff49835755660a4e",
-                "sha256:3c55f0db5e08920727f4fa24a87aed60060643f4b0b5665c62ec762f79e82d6b"
+                "sha256:39832e4732fcdc897e1b1a50474251c7d3218029a902634a876364c223ca2432",
+                "sha256:7d04cd042ac01e08463dcbe520835d02f414ba431a43e4b4035bd2d0531b66a0"
             ],
-            "version": "==1.20.5"
+            "version": "==1.20.6"
         },
         "certifi": {
             "hashes": [
@@ -205,9 +205,9 @@
         },
         "localstack-ext": {
             "hashes": [
-                "sha256:59b2c4a08a4a73fb3882893aea5781c147f9bddaf15d2c1a173ad21fc6ad137e"
+                "sha256:e66cf126fe9e51fc5f6fc2e25386cbcd903878221ea13a3c6f0a04e83498f609"
             ],
-            "version": "==0.12.5.5"
+            "version": "==0.12.5.7"
         },
         "nltk": {
             "hashes": [
