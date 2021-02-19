@@ -30,11 +30,11 @@
         },
         "pynamodb": {
             "hashes": [
-                "sha256:8f854523b1499d49234e189574a4746d0dcbf1012a3fe9a9cd73739d9f8b5d98",
-                "sha256:cac2cfa102ba95a49baa2739280f8d32b27b92bf028f748e1571fc8855530569"
+                "sha256:01741df673abb518d5cf9f00223a227f5d0ab9e0a6b19e444ceb38d497019f31",
+                "sha256:bc813a7a9cc4242a7b26ccdd474d9eb63d12e9f0a0ae2a504dbd6648029a9ba5"
             ],
             "index": "pypi",
-            "version": "==5.0.2"
+            "version": "==5.0.3"
         },
         "python-dateutil": {
             "hashes": [
