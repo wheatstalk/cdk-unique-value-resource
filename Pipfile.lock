@@ -240,10 +240,11 @@
         },
         "nltk": {
             "hashes": [
-                "sha256:845365449cd8c5f9731f7cb9f8bd6fd0767553b9d53af9eb1b3abf7700936b35"
+                "sha256:1235660f52ab10fda34d5277096724747f767b2903e1c0c4e14bde013552c9ba",
+                "sha256:cbc2ed576998fcf7cd181eeb3ca029e5f0025b264074b4beb57ce780673f8b86"
             ],
             "index": "pypi",
-            "version": "==3.5"
+            "version": "==3.6.1"
         },
         "pyaes": {
             "hashes": [
