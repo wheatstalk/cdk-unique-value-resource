@@ -16,10 +16,10 @@
     "default": {
         "botocore": {
             "hashes": [
-                "sha256:ad90e3b41456274b83f47c6b20f25def6782c0a8824f0ea07c441b730922ff97",
-                "sha256:be586cad3c669d47af01c22d2f2746d64238f78028ebe2c5c7205f856d3c3ce9"
+                "sha256:99c4f96bffae406f6dec1fa94e0886993e5bcd8657604d950abb43a49121fa7c",
+                "sha256:af27a8133f5b8f6a55738ccd5efd35689f1822cfd447625a839ef7a991eab64f"
             ],
-            "version": "==1.20.47"
+            "version": "==1.20.48"
         },
         "jmespath": {
             "hashes": [
@@ -61,18 +61,17 @@
     "develop": {
         "boto3": {
             "hashes": [
-                "sha256:7dce815941b2e4658c44362c3f0c339c7e4c2a40a97b693ece7fc90fdb3ebc56",
-                "sha256:e5d42ac0621c7f052c4af0b780cd58d54986d539eac73e9aade145fa9e66cce8"
+                "sha256:e86c15049dc07cb67e8b466795f004f1f23c1acf078d47283cd5e4a692a5aa37"
             ],
             "index": "pypi",
-            "version": "==1.17.47"
+            "version": "==1.17.48"
         },
         "botocore": {
             "hashes": [
-                "sha256:ad90e3b41456274b83f47c6b20f25def6782c0a8824f0ea07c441b730922ff97",
-                "sha256:be586cad3c669d47af01c22d2f2746d64238f78028ebe2c5c7205f856d3c3ce9"
+                "sha256:99c4f96bffae406f6dec1fa94e0886993e5bcd8657604d950abb43a49121fa7c",
+                "sha256:af27a8133f5b8f6a55738ccd5efd35689f1822cfd447625a839ef7a991eab64f"
             ],
-            "version": "==1.20.47"
+            "version": "==1.20.48"
         },
         "certifi": {
             "hashes": [
@@ -228,15 +227,15 @@
         },
         "localstack-client": {
             "hashes": [
-                "sha256:b6a6223b80e3bc1e606e3c10500fc8bd288557395ed2424e0622b8e3bc530eac"
+                "sha256:c4a2be87f80e24ae279956a6f6ac5d119f87b3ed69b512b17029cfbae3d2ddb0"
             ],
-            "version": "==1.15"
+            "version": "==1.16"
         },
         "localstack-ext": {
             "hashes": [
-                "sha256:95f7e5d37216159f5a58e8ace158cef66ecd1834457091a5a02bc6ce71aed5ec"
+                "sha256:69beb55a75e8cc483f465d5b86bbd23a0202692eb9fcae590f5224bd77a7e883"
             ],
-            "version": "==0.12.7.4"
+            "version": "==0.12.7.5"
         },
         "nltk": {
             "hashes": [
