@@ -221,10 +221,10 @@
         },
         "localstack": {
             "hashes": [
-                "sha256:2bfe1a1336678d2c11036299d0e5ce52f7d4adddc44a93e68ff9254a577da80b"
+                "sha256:abd7be7d7997f6532941fb0f976a3d2729287ccdb69b8b4ad3a10853e7e5d9f2"
             ],
             "index": "pypi",
-            "version": "==0.12.9.1"
+            "version": "==0.12.10"
         },
         "localstack-client": {
             "hashes": [
