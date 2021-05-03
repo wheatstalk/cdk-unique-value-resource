@@ -16,10 +16,10 @@
     "default": {
         "botocore": {
             "hashes": [
-                "sha256:c765ddd0648e32b375ced8b82bfcc3f8437107278b2d2c73b7da7f41297b5388",
-                "sha256:d48f94573c75a6c1d6d0152b9e21432083a1b0a0fc39b41f57128464982cb0a0"
+                "sha256:e4f8cb923edf035c2ae5f6169c70e77e31df70b88919b92b826a6b9bd14511b1",
+                "sha256:f7c2c5c5ed5212b2628d8fb1c587b31c6e8d413ecbbd1a1cdf6f96ed6f5c8d5e"
             ],
-            "version": "==1.20.61"
+            "version": "==1.20.62"
         },
         "jmespath": {
             "hashes": [
@@ -61,18 +61,18 @@
     "develop": {
         "boto3": {
             "hashes": [
-                "sha256:35b099fa55f5db6e99a92855b9f320736121ae985340adfc73bc46fb443809e9",
-                "sha256:53fd4c7df86f78e51168f832b42ca1c284333b3f5af0266bf10d13af41aeff5c"
+                "sha256:d856a71d74351649ca8dd59ad17c8c3e79ea57734ff4a38a97611e1e10b06863",
+                "sha256:da1b2c884dbf56cc3ece07940a7b654f41a93b9fc40ee1ed21a76da25a05989c"
             ],
             "index": "pypi",
-            "version": "==1.17.61"
+            "version": "==1.17.62"
         },
         "botocore": {
             "hashes": [
-                "sha256:c765ddd0648e32b375ced8b82bfcc3f8437107278b2d2c73b7da7f41297b5388",
-                "sha256:d48f94573c75a6c1d6d0152b9e21432083a1b0a0fc39b41f57128464982cb0a0"
+                "sha256:e4f8cb923edf035c2ae5f6169c70e77e31df70b88919b92b826a6b9bd14511b1",
+                "sha256:f7c2c5c5ed5212b2628d8fb1c587b31c6e8d413ecbbd1a1cdf6f96ed6f5c8d5e"
             ],
-            "version": "==1.20.61"
+            "version": "==1.20.62"
         },
         "certifi": {
             "hashes": [
@@ -228,15 +228,15 @@
         },
         "localstack-client": {
             "hashes": [
-                "sha256:b5094e92db5797bc7490fd40edcc76f12e6324f1bad1a461efb157d4b3257c13"
+                "sha256:6829e5ed5e14ef02ea434b9dab85df5e9d3559666e1bbe397dc67e2244cad9cd"
             ],
-            "version": "==1.17"
+            "version": "==1.18"
         },
         "localstack-ext": {
             "hashes": [
-                "sha256:1ff43b5002ebbcc50c62397b7dda684d6713b739c37d70d95fb7ee718b595f1f"
+                "sha256:d15d05b575cd7de54db3a6afccfc2295d4d04b859cc17e40be3450b1e1b83edf"
             ],
-            "version": "==0.12.8.6"
+            "version": "==0.12.8.9"
         },
         "nltk": {
             "hashes": [
